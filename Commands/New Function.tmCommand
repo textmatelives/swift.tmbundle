@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>command</key>
-	<string>#!/usr/bin/env ruby18 -wKU
+	<string>#!/usr/bin/env ruby -wKU
 require ENV['TM_SUPPORT_PATH'] + '/lib/escape'
 
 input = STDIN.read
@@ -16,7 +16,8 @@ func #{e_sn input}${1:&lt;Value&gt;}(${2:with value: Value})${3/.+/ /m}${3:${2/.
 	<key>input</key>
 	<string>word</string>
 	<key>keyEquivalent</key>
-	<string>$</string>
+	<string>$
+</string>
 	<key>name</key>
 	<string>New Function</string>
 	<key>outputFormat</key>
